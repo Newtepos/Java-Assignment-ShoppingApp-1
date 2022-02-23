@@ -1,10 +1,10 @@
-package com.example.shopping;
+package com.example.shopping.service;
 
 import com.example.shopping.modal.user.User;
+import com.example.shopping.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.Objects;
 import java.util.Optional;
 
 @Service

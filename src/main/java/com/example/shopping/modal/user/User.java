@@ -14,9 +14,15 @@ public class User {
 
     private String username;
     private String password;
+
+    @Column(nullable = true)
     private boolean setLoggedIn;
+
+    @Column(nullable = true)
     private int shippingAddressId;
+    @Column(nullable = true)
     private int creditPaymentId;
+    @Column(nullable = true)
     private int bankPaymentId;
 
 
