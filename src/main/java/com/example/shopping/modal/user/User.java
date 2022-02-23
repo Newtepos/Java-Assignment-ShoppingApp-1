@@ -1,25 +1,29 @@
-package com.example.shopping;
+package com.example.shopping.modal.user;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
 public class User {
 
     @Id
+    @GeneratedValue
     private int id;
 
     private String username;
     private String password;
+    private boolean setLoggedIn;
     private int shippingAddressId;
     private int creditPaymentId;
     private int bankPaymentId;
 
+
     public User() {
     }
 
-    public User(int id, String username, String password) {
-        this.id = id;
+    public User(String username, String password) {
         this.username = username;
         this.password = password;
     }
@@ -62,5 +66,13 @@ public class User {
 
     public void setBankPaymentId(int bankPaymentId) {
         this.bankPaymentId = bankPaymentId;
+    }
+
+    public boolean isSetLoggedIn() {
+        return setLoggedIn;
+    }
+
+    public void setSetLoggedIn(boolean setLoggedIn) {
+        this.setLoggedIn = setLoggedIn;
     }
 }

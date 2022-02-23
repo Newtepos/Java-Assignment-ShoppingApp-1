@@ -1,4 +1,4 @@
-package com.example.shopping;
+package com.example.shopping.modal.user;
 
 public class ShippingAddress {
     private int shippingAddressId;
