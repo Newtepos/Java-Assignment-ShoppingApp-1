@@ -1,7 +1,6 @@
-package com.example.shopping.controller;
+package com.example.shopping.product;
 
-import com.example.shopping.service.ProductService;
-import com.example.shopping.modal.product.Product;
+import com.example.shopping.product.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

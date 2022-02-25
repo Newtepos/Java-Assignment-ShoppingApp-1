@@ -1,7 +1,6 @@
-package com.example.shopping.service;
+package com.example.shopping.product;
 
-import com.example.shopping.modal.product.Product;
-import com.example.shopping.repository.ProductRepository;
+import com.example.shopping.product.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,7 +1,6 @@
-package com.example.shopping.controller;
+package com.example.shopping.user;
 
-import com.example.shopping.service.LoginService;
-import com.example.shopping.modal.user.User;
+import com.example.shopping.user.model.User;
 import com.example.shopping.response.LoginResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

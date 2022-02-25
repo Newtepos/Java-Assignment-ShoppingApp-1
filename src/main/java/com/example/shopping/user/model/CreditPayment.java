@@ -1,4 +1,4 @@
-package com.example.shopping.modal.user;
+package com.example.shopping.user.model;
 
 public class CreditPayment {
     private String cardHolderName;

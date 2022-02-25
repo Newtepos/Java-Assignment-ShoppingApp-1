@@ -1,11 +1,10 @@
-package com.example.shopping.repository;
+package com.example.shopping.user;
 
-import com.example.shopping.modal.user.User;
+import com.example.shopping.user.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
 
 public interface UserRepository extends JpaRepository<User, Integer> {
-    Optional<User> findByUsername(String Usename);
+    Optional<User> findByUsername(String username);
 }
-
